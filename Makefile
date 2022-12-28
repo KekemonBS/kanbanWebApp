@@ -11,4 +11,4 @@ purge: down
 rebuild: purge
 	docker compose up --build -d
 ui:
-	cd UI/ && npm run serve
+	cd UI/ && npm run dev
