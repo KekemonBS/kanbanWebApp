@@ -10,3 +10,5 @@ purge: down
 	docker rmi -f $(containers)
 rebuild: purge
 	docker compose up --build -d
+ui:
+	cd UI/ && npm run serve
