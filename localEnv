@@ -1,0 +1,7 @@
+alias c="make create"
+alias d="make down"
+alias u="make up"
+alias p="make purge"
+alias r="make rebuild"
+
+exprot test="testString"
