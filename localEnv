@@ -3,5 +3,6 @@ alias d="make down"
 alias u="make up"
 alias p="make purge"
 alias r="make rebuild"
+alias rmEnv="unalias r u p c d rmEnv"
 
 exprot test="testString"
